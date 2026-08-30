@@ -112,7 +112,7 @@ const Login = () => {
                   <User className="w-4 h-4 text-indigo-300" />
                   <div>
                     <p className="font-bold">Student Portal</p>
-                    <p className="text-[10px] text-indigo-200">student@college.com</p>
+                    <p className="text-[10px] text-indigo-200">student@college.com (Pass: student123)</p>
                   </div>
                 </div>
                 <ArrowRight className="w-3.5 h-3.5 text-indigo-300" />
@@ -128,7 +128,7 @@ const Login = () => {
                   <Shield className="w-4 h-4 text-violet-300" />
                   <div>
                     <p className="font-bold">Admin Workspace</p>
-                    <p className="text-[10px] text-indigo-200">admin@college.com</p>
+                    <p className="text-[10px] text-indigo-200">admin@college.com (Pass: admin123)</p>
                   </div>
                 </div>
                 <ArrowRight className="w-3.5 h-3.5 text-indigo-300" />
@@ -162,7 +162,7 @@ const Login = () => {
             />
 
             <Input
-              label="Password"
+              label="Password (Default: student123 or admin123)"
               type="password"
               placeholder="••••••••"
               icon={Lock}
